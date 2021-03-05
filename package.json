@@ -1,0 +1,30 @@
+{
+  "name": "peertube-theme-tokuverse",
+  "version": "0.0.4",
+  "description": "TokuVerse.tv Theme",
+  "engine": {
+    "peertube": ">=1.3.0"
+  },
+  "keywords": [
+    "peertube",
+    "theme"
+  ],
+  "homepage": "https://github.com/seisatsu/peertube-theme-tokuverse",
+  "author": "Team NextPage",
+  "bugs": "https://github.com/ipbc-dev/peertube-theme-tokuverse/issues",
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "css": [
+    "assets/style.css"
+  ],
+  "clientScripts": [
+    {
+      "script": "client/common-client-plugin.js",
+      "scopes": [
+        "common"
+      ]
+    }
+  ],
+  "translations": {}
+}

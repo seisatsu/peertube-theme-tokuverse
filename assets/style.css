@@ -1,0 +1,324 @@
+body {
+  --mainColor: #DF3D26;
+  --mainBackgroundColor: #134765; 
+  --mainForegroundColor: #EFE3DA;
+  --submenuColor: #080822;
+  --inputForegroundColor: #e0d9d2;
+  --inputBackgroundColor: #060433;
+  --inputPlaceholderColor: #e0d9d2; 
+  --textareaForegroundColor: #e0d9d2;
+  --textareaBackgroundColor: #060433;
+  --menuAndHeaderBackgroundColor: #ffffff;
+  --menuForegroundColor: #EFE3DA;
+  --menuBackgroundColor: #060434;
+  --whiteColor: #ffffff; 
+  --mainHoverColor: #AB2213;
+  --dangerBackgroundColor: #DF3D26; 
+  --actionButtonColor: #060433;
+  --activatedActionButtonColor: #71e0f1; 
+  --greyForegroundColor: #bdbcbc;
+  /*font-family: "Open Sans",sans-serif;*/
+}
+#custom-css #search-video{
+  background: var(--mainBackgroundColor) !important;
+}
+#custom-css .footer-links a, custom-css .footer-copyleft a{
+  color: var(--menuForegroundColor) !important
+}
+/* Dropdowns & inputs */
+#custom-css .dropdown-menu{
+  background-color: var(--menuBackgroundColor); color: 
+  var(--menuForegroundColor);
+}
+#custom-css .dropdown-menu a{
+  color: var(--menuForegroundColor) !important;
+}
+#custom-css .dropdown-item:focus:not(.new-playlist-block), custom-css 
+#.dropdown-item:hover:not(.new-playlist-block), custom-css 
+#.videos-header a button{
+  color: var(--whiteColor) !important; background-color: 
+  var(--mainColor);
+}
+#custom-css .dropdown-item:focus:not(.new-playlist-block), custom-css 
+#.dropdown-item:hover:not(.new-playlist-block), custom-css 
+#.dropdown-item:active:not(.new-playlist-block), custom-css 
+#span.dropdown-item.custom-action:hover, custom-css 
+#a.dropdown-item.with-icon:hover{
+  color: var(--whiteColor) !important; background-color: 
+  var(--mainColor) !important;
+}
+#custom-css .header{
+  background-color: var(--menuBackgroundColor);
+}
+#custom-css .upload-button, #custom-css .upload-button:active, 
+##custom-css .upload-button:focus{
+  color: var(--whiteColor) !important; background-color: 
+  var(--mainColor) !important;
+}
+#custom-css .root .form-group-checkbox input:checked + span{
+  background: var(--mainColor) !important;
+}
+#custom-css .dropdown-menu .dropdown-item:hover span[role="checkbox"], 
+#custom-css .dropdown-menu .dropdown-item span[role="checkbox"]:checked{
+  border: 1px solid var(--mainBackgroundColor) !important
+}
+#custom-css .peertube-select-container, input[type="text"], textarea{
+  border: 1px solid var(--mainBackgroundColor) !important;
+}
+#custom-css .dropdown-menu input[type="submit"]{
+  border: 1px solid transparent !important; /* Removing black border in 
+  buttons */
+}
+#custom-css .header .options-row{
+  padding-left: 0;
+}
+#custom-css .header .options-row > div{
+  justify-content: space-between;
+}
+#custom-css .sub-header-container my-menu .menu-wrapper{
+  margin-top: 2px;
+}
+#custom-css .dropdown-item:hover .ml-auto:not(.glyphicon){
+  box-shadow: 0 0 0 0.1em var(--menuForegroundColor) !important;
+}
+/* Icons && Icon hovers */
+#custom-css a my-global-icon svg circle[stroke="#000000"], custom-css a 
+#my-global-icon svg g[stroke="#000000"], custom-css a my-global-icon svg 
+#path[stroke="#000000"], custom-css a my-global-icon svg 
+#polygon[stroke="#000000"], custom-css a my-global-icon svg 
+#rect[stroke="#000000"], custom-css a my-global-icon svg 
+#ellipse[stroke="#000000"]{
+  stroke: var(--mainForegroundColor) !important;
+}
+#custom-css .dropdown-item:hover my-global-icon svg 
+#circle[stroke="#000000"], custom-css .dropdown-item:hover 
+#my-global-icon svg g[stroke="#000000"], custom-css .dropdown-item:hover 
+#my-global-icon svg path[stroke="#000000"], custom-css 
+#.dropdown-item:hover my-global-icon svg polygon[stroke="#000000"], 
+#custom-css .dropdown-item:hover my-global-icon svg 
+#rect[stroke="#000000"], custom-css .dropdown-item:hover my-global-icon 
+#svg ellipse[stroke="#000000"], custom-css .videos-header a button 
+#my-global-icon svg g[stroke="#000000"]{
+  stroke: var(--whiteColor) !important;
+}
+#custom-css a my-global-icon svg circle[fill="#000000"], custom-css a 
+#my-global-icon svg g[fill="#000000"], custom-css a my-global-icon svg 
+#path[fill="#000000"], custom-css a my-global-icon svg 
+#polygon[fill="#000000"], custom-css a my-global-icon svg 
+#rect[fill="#000000"]{
+  fill: var(--mainForegroundColor) !important;
+}
+#custom-css .dropdown-item:hover my-global-icon svg 
+#circle[fill="#000000"], custom-css .dropdown-item:hover my-global-icon 
+#svg g[fill="#000000"], custom-css .dropdown-item:hover my-global-icon 
+#svg path[fill="#000000"], custom-css .dropdown-item:hover 
+#my-global-icon svg polygon[fill="#000000"], custom-css 
+#.dropdown-item:hover my-global-icon svg rect[fill="#000000"]{
+  fill: var(--whiteColor) !important;
+}
+#custom-css .upload-button my-global-icon svg g[stroke="#000000"] {
+  stroke: var(--whiteColor) !important;
+}
+ /* Delete buttons */
+ #custom-css .delete-me button:hover, custom-css .delete-me button, 
+ #custom-css .action-button-delete, custom-css 
+ #.action-button-delete:active, custom-css 
+ #.action-button-delete-selection{
+   background-color: var(--dangerBackgroundColor); color: 
+   var(--whiteColor);
+ }
+ #custom-css .top-buttons .delete-history{
+   background-color: var(--dangerBackgroundColor); color: 
+   var(--whiteColor);
+ }
+ /* Register button */
+ #custom-css .create-account-button{
+   background-color: var(--mainForegroundColor);
+ }
+ /* Icons from buttons */
+#custom-css .upload-button my-global-icon svg g[stroke="#000000"], 
+#custom-css a.add-button my-global-icon svg circle[stroke="#000000"], 
+#custom-css a.create-button my-global-icon svg circle[stroke="#000000"], 
+#custom-css a.create-caption my-global-icon svg 
+#circle[stroke="#000000"]{
+  stroke: var(--whiteColor) !important;
+}
+#custom-css a.add-button my-global-icon svg rect[fill="#000000"], 
+#custom-css a.create-button my-global-icon svg rect[fill="#000000"], 
+#custom-css a.create-caption my-global-icon svg rect[fill="#000000"]{
+  fill: var(--whiteColor) !important;
+}
+  /* Trash bin icon */
+  #custom-css my-global-icon[iconname="delete"] svg 
+  #path[stroke="#000000"]{
+    stroke: var(--whiteColor) !important;
+  }
+  #custom-css my-global-icon[iconname="delete"] svg 
+  #path[fill="#000000"], custom-css my-global-icon[iconname="delete"] 
+  #svg rect[fill="#000000"]{
+    fill: var(--whiteColor) !important;
+  }
+  /* Pagination */
+#custom-css .ui-paginator 
+#.ui-paginator-element:hover:not(.ui-state-disabled){
+  color: var(--whiteColor) !important; background-color: 
+  var(--mainHoverColor) !important;
+}
+/* 404 Not found page */
+#custom-css my-page-not-found img {
+  width: 350px !important; margin-bottom: 0px !important;
+}
+#custom-css .video-miniature-account {
+	color:aliceblue;
+}
+#custom-css .video-miniature-account:visited {
+  color:#bce0ff;
+}
+#custom-css .text-muted {
+  color: #eaeaea !important;
+}
+#custom-css .form-error {
+  color: #DEBE36;
+}
+#custom-css .dropdown-toggle {
+  color: #71e0f1;
+}
+#custom-css .vjs-play-control {
+  color: #88ffff87 !important;
+}
+#custom-css .vjs-control {
+  color: #8ffff7 !important;
+}
+#custom-css .vjs-button {
+  color: #88ffff7 !important;
+}
+#custom-css .vjs-paused {
+  color: #DFBF37 !important;
+}
+#custom-css .vjs-next-video {
+  color: #DFBF37 !important
+}
+#custom-css .vjs-progress-control {
+  color: #80f4f6 !important;
+}
+#custom-css .dropdown-item
+ { color: #ede1d8 !important;
+}
+#custom-css .dropdown-header
+ { color: #bdbcbc !important;
+}
+#custom-css .grey-button {
+  color: #585858;
+}
+#custom-css svg.feather.feather-trash-2 {
+  color: #fff;
+}
+#custom-css svg.feather.feather-help-circle {
+  color: #ede1d8;
+}
+#custom-css my-about-instance div.row:first-child {
+  background-image: 
+  url(https://tokuverse.tv/themes/tokuverse/0.0.4/static/images/tv_chan_by_peaceguy.png); 
+  background-repeat: no-repeat; background-position: 90% 100%; 
+  background-attachment: fixed;
+}
+
+#custom-css .actor-info-username {
+  color: var(--greyForegroundColor);
+}
+
+#custom-css input[type=submit]:disabled {
+  background-color: #888888;
+}
+
+#custom-css .ng-select-container {
+  background-color: var(--textareaBackgroundColor);
+  color: var(--textareaForegroundColor);
+}
+
+#custom-css .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value {
+  background-color: var(--mainBackgroundColor);
+}
+
+#custom-css ng-dropdown-panel .ng-option-selected {
+  background-color: var(--textareaBackgroundColor);
+  color: var(--textareaForegroundColor);
+}
+
+#custom-css .feather-user-plus {
+  color: var(--actionButtonColor)
+}
+
+#custom-css my-my-account .feather-settings {
+  color: var(--actionButtonColor)
+}
+
+#custom-css .feather-check {
+  color: var(--actionButtonColor)
+}
+
+#custom-css button.btn.ml-auto {
+  color: var(--actionButtonColor);
+}
+
+#custom-css svg#Calque_1 .st0 {
+  stroke: var(--greyForegroundColor);
+}
+
+#custom-css svg#Calque_1 .st1 {
+  fill: var(--greyForegroundColor);
+}
+
+#custom-css my-global-icon.icon-playlist-add svg path {
+  fill: white;
+}
+
+#custom-css .header a {
+  color: var(--actionButtonColor);
+}
+
+#custom-css select.form-control {
+  color: var(--actionButtonColor);
+}
+
+#custom-css span.glyphicon {
+  color: var(--greyForegroundColor);
+}
+
+#custom-css .form-group-description {
+  color: #DEBE36!important;
+}
+
+#custom-css .publish-button-label {
+  color: #fff;
+}
+
+#custom-css textarea.form-control {
+  color: var(--textareaForegroundColor);
+  background-color: var(--textareaBackgroundColor)
+}
+
+#custom-css my-global-icon[iconname="language"] svg path {
+  stroke: var(--greyForegroundColor);
+  fill: var(--greyForegroundColor);
+}
+
+#custom-css a.button-link {
+  color: #585858;
+}
+
+#custom-css a.button-link svg {
+  color: #585858;
+}
+
+#custom-css a.button-link svg path {
+  stroke: #585858;
+}
+
+#custom-css span.action-button.grey-button svg {
+  color: #585858;
+}
+
+#custom-css svg.feather.feather-edit-2 {
+  color: #585858;
+}
