@@ -1,6 +1,6 @@
 {
   "name": "peertube-theme-tokuverse",
-  "version": "0.0.4",
+  "version": "0.0.10",
   "description": "TokuVerse.tv Theme",
   "engine": {
     "peertube": ">=1.3.0"

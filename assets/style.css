@@ -2,6 +2,7 @@ body {
   --mainColor: #DF3D26;
   --mainBackgroundColor: #134765; 
   --mainForegroundColor: #EFE3DA;
+  --secondaryMainColor: #BF6D46;
   --submenuColor: #080822;
   --inputForegroundColor: #e0d9d2;
   --inputBackgroundColor: #060433;
@@ -133,7 +134,7 @@ body {
  }
  /* Register button */
  #custom-css .create-account-button{
-   background-color: var(--mainForegroundColor);
+   background-color: var(--secondaryMainColor);
  }
  /* Icons from buttons */
 #custom-css .upload-button my-global-icon svg g[stroke="#000000"], 
@@ -183,24 +184,6 @@ body {
 #custom-css .dropdown-toggle {
   color: #71e0f1;
 }
-#custom-css .vjs-play-control {
-  color: #88ffff87 !important;
-}
-#custom-css .vjs-control {
-  color: #8ffff7 !important;
-}
-#custom-css .vjs-button {
-  color: #88ffff7 !important;
-}
-#custom-css .vjs-paused {
-  color: #DFBF37 !important;
-}
-#custom-css .vjs-next-video {
-  color: #DFBF37 !important
-}
-#custom-css .vjs-progress-control {
-  color: #80f4f6 !important;
-}
 #custom-css .dropdown-item
  { color: #ede1d8 !important;
 }
@@ -218,9 +201,11 @@ body {
 }
 #custom-css my-about-instance div.row:first-child {
   background-image: 
-  url(https://tokuverse.tv/themes/tokuverse/0.0.4/static/images/tv_chan_by_peaceguy.png); 
-  background-repeat: no-repeat; background-position: 90% 100%; 
-  background-attachment: fixed;
+  url(https://tokuverse.tv/themes/tokuverse/0.0.10/static/images/tv_chan_by_peaceguy.png); 
+  background-repeat: no-repeat;
+  background-position: 100% 70%;
+  background-size: 40%;
+  background-attachment: scroll;
 }
 
 #custom-css .actor-info-username {
@@ -278,7 +263,7 @@ body {
 }
 
 #custom-css select.form-control {
-  color: var(--actionButtonColor);
+  color: var(--inputForegroundColor);
 }
 
 #custom-css span.glyphicon {
@@ -321,4 +306,28 @@ body {
 
 #custom-css svg.feather.feather-edit-2 {
   color: #585858;
+}
+
+#custom-css a.dropdown-item svg.feather.feather-edit-2 {
+  color: var(--greyForegroundColor);
+}
+
+#custom-css span.vjs-current-time-display {
+  color: white;
+}
+
+#custom-css span.vjs-duration-display {
+  color: white;
+}
+
+#custom-css span.vjs-icon-placeholder {
+  color: #DFBF37;
+}
+
+#custom-css button.action-button-save {
+  color: var(--actionButtonColor)
+}
+
+#custom-css .user-quota .progress span {
+  color: black;
 }
