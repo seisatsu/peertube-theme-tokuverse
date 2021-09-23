@@ -203,7 +203,7 @@ body {
 }
 #custom-css my-about-instance div.row:first-child {
   background-image: 
-  url(https://tokuverse.tv/themes/tokuverse/0.0.13/static/images/tv_chan_by_peaceguy.png); 
+  url(https://tokuverse.tv/themes/tokuverse/0.0.14/static/images/tv_chan_by_peaceguy.png); 
   background-repeat: no-repeat;
   background-position: 100% 70%;
   background-size: 40%;
@@ -335,5 +335,5 @@ body {
 }
 
 #custom-css .dropdown-item:hover {
-  background-color: var(--submenuBackgroundColor);
+  background-color: #1f1e49;
 }
