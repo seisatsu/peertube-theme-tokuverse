@@ -18,6 +18,8 @@ body {
   --actionButtonColor: #060433;
   --activatedActionButtonColor: #71e0f1; 
   --greyForegroundColor: #bdbcbc;
+  --submenuBackgroundColor: #102952;
+  --channelBackgroundColor: #102952;
   /*font-family: "Open Sans",sans-serif;*/
 }
 #custom-css #search-video{
@@ -201,7 +203,7 @@ body {
 }
 #custom-css my-about-instance div.row:first-child {
   background-image: 
-  url(https://tokuverse.tv/themes/tokuverse/0.0.10/static/images/tv_chan_by_peaceguy.png); 
+  url(https://tokuverse.tv/themes/tokuverse/0.0.13/static/images/tv_chan_by_peaceguy.png); 
   background-repeat: no-repeat;
   background-position: 100% 70%;
   background-size: 40%;
@@ -330,4 +332,8 @@ body {
 
 #custom-css .user-quota .progress span {
   color: black;
+}
+
+#custom-css .dropdown-item:hover {
+  background-color: var(--submenuBackgroundColor);
 }
