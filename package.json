@@ -11,7 +11,7 @@
   ],
   "homepage": "https://github.com/seisatsu/peertube-theme-tokuverse",
   "author": "Team NextPage",
-  "bugs": "https://github.com/ipbc-dev/peertube-theme-tokuverse/issues",
+  "bugs": "https://github.com/seisatsu/peertube-theme-tokuverse/issues",
   "staticDirs": {
     "images": "public/images"
   },
